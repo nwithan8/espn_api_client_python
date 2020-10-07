@@ -1,4 +1,4 @@
-import sport
+from classes import sport
 
 
 class ESPN:

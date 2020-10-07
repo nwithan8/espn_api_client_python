@@ -1,9 +1,9 @@
 import requests
 
 
-def get(url):
+def get(url: str):
     return requests.get(url)
 
 
-def _json(url):
-    return get(url).json()
+def get_json(url: str):
+    return get(url=url).json()
